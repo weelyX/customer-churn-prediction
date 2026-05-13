@@ -65,31 +65,8 @@ After threshold and regularization tuning, Logistic Regression achieved a valida
 - SciPy
 - Jupyter Notebook
 
-## Recommended Repository Structure
+  ## Project Files
 
-```text
-customer-churn-prediction/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── churn_dataset.csv
-├── notebooks/
-│   └── customer_churn_prediction.ipynb
-└── assets/
-    └── screenshots/
-```
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/customer_churn_prediction.ipynb
-```
-
-## Notes
-
-Before uploading to GitHub, update the notebook file path from `/content/churn_dataset.csv` to a relative path such as:
-
-```python
-df = pd.read_csv("../data/churn_dataset.csv")
-```
+- `notebooks/customer_churn_prediction.ipynb` — Main notebook containing data preprocessing, analysis, modeling, and evaluation.
+- `data/churn_dataset.csv` — Dataset used for training and testing.
+- `requirements.txt` — Python libraries required to run the project.
