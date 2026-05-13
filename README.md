@@ -70,3 +70,11 @@ After threshold and regularization tuning, Logistic Regression achieved a valida
 - `notebooks/customer_churn_prediction.ipynb` — Main notebook containing data preprocessing, analysis, modeling, and evaluation.
 - `data/churn_dataset.csv` — Dataset used for training and testing.
 - `requirements.txt` — Python libraries required to run the project.
+
+##Repository Purpose
+
+This repository is intended to demonstrate practical machine learning skills, including exploratory data analysis, feature engineering, model comparison, classification evaluation, and model tuning.
+
+##What I Learned
+
+Through this project, I practiced building a full machine learning workflow from data exploration to model evaluation. I also learned how to compare multiple classifiers, analyze missing values, engineer useful features, and tune Logistic Regression to improve classification performance.
